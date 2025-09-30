@@ -94,7 +94,6 @@ export default function BarcodeScanner() {
 
   const onScanError = (errorMessage) => {
     // Ignorer les erreurs de scan normales (aucun code détecté)
-    // console.log('Scan error:', errorMessage);
   };
 
   const stopScanner = async () => {
@@ -186,7 +185,7 @@ export default function BarcodeScanner() {
                     style={styles.buttonSecondary}
                     title="Changer de caméra"
                   >
-                    Refresh
+                    Changer caméra
                   </button>
                 )}
               </>
@@ -394,30 +393,6 @@ const styles = {
     borderRadius: '0.375rem',
     border: 'none',
     cursor: 'pointer',
-    fontSize: '1rem',
-  },
-  info: {
-    marginTop: '1rem',
-    padding: '0.75rem',
-    backgroundColor: '#374151',
-    borderRadius: '0.5rem',
-  },
-  infoTitle: {
     fontSize: '0.875rem',
-    fontWeight: '600',
-    color: '#d1d5db',
-    marginBottom: '0.5rem',
-    marginTop: 0,
-  },
-  infoList: {
-    fontSize: '0.875rem',
-    color: '#d1d5db',
-    margin: '0 0 0.5rem 0',
-    paddingLeft: '1.25rem',
-  },
-  infoFormats: {
-    fontSize: '0.75rem',
-    color: '#9ca3af',
-    margin: 0,
   },
 };
