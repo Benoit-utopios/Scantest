@@ -229,20 +229,6 @@ export default function BarcodeScanner() {
               </div>
             </div>
           )}
-
-          <div style={styles.info}>
-            <p style={styles.infoTitle}>Conseils pour un bon scan:</p>
-            <ul style={styles.infoList}>
-              <li><strong>Éclairage:</strong> Bon éclairage uniforme obligatoire</li>
-              <li><strong>Distance:</strong> 15-25cm de la caméra</li>
-              <li><strong>Stabilité:</strong> Maintenez stable 1-2 secondes</li>
-              <li><strong>Zone verte:</strong> Placez le code dans le cadre vert</li>
-              <li><strong>Orientation:</strong> Code-barres horizontal de préférence</li>
-            </ul>
-            <p style={styles.infoFormats}>
-              <strong>Formats:</strong> EAN-13, EAN-8, UPC-A, UPC-E, Code 128, Code 39, QR Code, Data Matrix
-            </p>
-          </div>
         </div>
       </div>
     </div>
